@@ -130,7 +130,7 @@ From React's point of view, a component using Hooks is just a regular component.
 For example, let's say we have this counter component:
 
 ```js
-function Example() {
+function Counter() {
   const [count, setCount] = useState(0);
   useEffect(() => {
     document.title = `You clicked ${count} times`;
